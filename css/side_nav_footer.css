@@ -1,0 +1,222 @@
+/* ---------- SIDE MENU NAVIGATION FROM LEFT ---------- */
+.kiri {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.kiri a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.kiri a:hover{
+    color: #f1f1f1;
+}
+
+.kiri .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .kiri {padding-top: 15px;}
+  .kiri a {font-size: 18px;}
+}
+
+/* ---------- SIDE MENU NAVIGATION FROM RIGHT ---------- */
+.kanan {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.kanan a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.kanan a:hover {
+    color: #f1f1f1;
+}
+
+.kanan .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .kanan {padding-top: 15px;}
+  .kanan a {font-size: 18px;}
+}
+
+/* ---------- SIDE MENU NAVIGATION FROM TOP ---------- */
+.atas {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.atas-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.atas a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.atas a:hover, .atas a:focus {
+    color: #f1f1f1;
+}
+
+.atas .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .atas {overflow-y: auto;}
+  .atas a {font-size: 20px}
+  .atas .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* ---------- SIDE MENU NAVIGATION FROM RIGHT - Section 4 ---------- */
+.kanan1 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.kanan1 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.kanan1 a:hover {
+    color: #f1f1f1;
+}
+
+.kanan1 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .kanan1 {padding-top: 15px;}
+  .kanan1 a {font-size: 18px;}
+}
+
+/* ---------- SIDE MENU NAVIGATION FROM BOTTOM ---------- */
+.bawah {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: #111;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.bawah-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bawah a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.bawah a:hover, .bawah a:focus {
+    color: #f1f1f1;
+}
+
+.bawah .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .bawah {overflow-y: auto;}
+  .bawah a {font-size: 20px}
+  .bawah .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
