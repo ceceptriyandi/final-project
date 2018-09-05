@@ -23,19 +23,19 @@ h1{
 }
 
 #section1{
-    background-image: url(../project_foto/nature/nature4.jpg);
+    background-image: url(../img/nature/nature4.jpg);
     padding: 6% 0 0 0;
 }
 
 #section2{
-    background-image: url(../project_foto/nature/nature9.jpg);
+    background-image: url(../img/nature/nature9.jpg);
     background-size: cover;
     padding: 6% 0 0 0;
 }
 
 /* ---------- SECTION 4 - background for the slides ---------- */
 #section3{
-    background-image: url(../project_foto/nature/nature14.jpg);
+    background-image: url(../img/nature/nature14.jpg);
     background-size: cover;
     padding: 6% 0 0 0;
 }
