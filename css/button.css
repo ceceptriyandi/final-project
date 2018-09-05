@@ -70,3 +70,6 @@
   color: #fff;
   right: 20px;
 }
+.img-not {
+    pointer-events: none;
+}
